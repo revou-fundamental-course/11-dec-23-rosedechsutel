@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shintiya's Website</title>
+</head>
+<body>
+    <!--Navigasi-->
+    <div class="nav-bar">
+        <li><a href="home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experiance">Experience</a></li>
+        <li><a href="#message">Message</a></li>
+    </div>
+    <hr>
+    <!--home section-->
+    <section id="home">
+        <h1>HI There,<span id="nama-orang"> ? </span></h1>
+        <p>Terima kasih telah mengunjungi website ini, senang bertemu dengan Anda. Mari mengenal saya </p>
+    </section>
+    <hr>
+    <!--home about-->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Saya Shintiya Ramadaniati, lahir di Samarinda pada tanggal 4 Desember 2002. Saat ini saya sedang menempuh
+        pendidikan di Politeknik Negeri Samarinda, Jurusan Teknologi Informasi, D4 Teknik Informatika Multimedia
+        semester 5. Sebagai mahasiswa saya mempunyai Visi dan Misi</p>
+        <div class="visi">
+            <h4>--Visi--</h4>
+            <p>Menjadi seseorang yang berkontribusi positif pada masyarakat dan menggapai potensi penuh dalam karir
+            dan kehidupan pribadi.</p>
+        </div>
+        <div class="misi">
+            <h4>--Misi--</h4>
+            <p>Terlibat dalam kegiatan sosial, forum mahasiswa, atau proyek yang dapat membantu dalam
+            pengembangan pribadi dan memberikan dampak positif pada lingkungan sekitar</p>
+        </div>
+    </section>
+    <hr>
+    <!--home exsperiance-->
+    <section id="experiance">
+        <h1>Experiance</h1>
+        <p>Saya pernah berpartisipasi dalam kegiatan kuliah seperti :</p>
+        <div class="experiance">
+            <h4>1. Bina Damping Kuliah Perdana 2022</h4>
+            <p>Bindam Kulper adalah relawan yang membantu mengatur mahasiswa baru dalam pengenalan kampus pada kuliah 
+            pertamanya dan saya menjadi ketua bindam kelompok 11.</p>
+        </div>
+        <div class="experiance">
+            <h4>2. Teacher Polnes Mengajar 2023</h4>
+            <p>Teacher bertugas sebagai guru untuk membantu divisi kurikulum dalam penyusunan materi, bahan praktik,
+            dan eksekusi pembelajaran di sekolah.</p>
+        </div>
+    </section>
+    <hr>
+    <!--massage section-->
+    <section id="message">
+        <h1>Message For Me</h1>
+        <p>Jika Anda mempunyai pertanyaan tentang saya, Anda dapat mengisi formulir di bawah ini untuk menyampaikan pesan</p>
+    </section>
+    <!--form-->
+    <form id="form-container">
+        <!--nama-->
+        <label for="name">Nama</label>
+        <input type="text" id="name" name="name">
+        <!--tanggal pesan-->
+        <label for="date">Tanggal</label>
+        <input type="date" id="date" name="date">
+        <!--kelamin-->
+        <label for="gender">Jenis Kelamin</label>
+        <select id="gender" name="gender">
+            <option value="male">Pria</option>
+            <option value="female">Wanita</option>
+        </select>
+        <!--pesan-->
+        <label for="message">Pesan Mu</label>
+        <textarea id="message" name="message"></textarea>
+        <!--tombol-->
+        <button type="send">Send Me</button>
+    </form>
+    <script src="js/index.js"></script>
+    <hr>
+    <!--footer-->
+    <div class="footer">
+        <p>© 2023 Shintiya. All rights reserved.</p>
+    </div>
+</body>
+</html>
