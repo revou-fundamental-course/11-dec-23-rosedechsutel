@@ -41,6 +41,10 @@ body {
     padding: 20px
 }
 
+.slide-column{
+    width:100%
+}
+
 #home,
 #about,
 #experiance,
